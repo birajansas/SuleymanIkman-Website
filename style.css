@@ -35,5 +35,26 @@ html {
     background: #4A4A4A;
     height: 80vh;
     padding: 30px;
+    text-align: center;
     z-index: 1;
+}
+
+.home-title .texts h2{
+    font-size: 40px;
+    color: #fff;
+}
+
+.home-title .texts h5 {
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.home-title .btn {
+    background: #2F2F2F;
+    color: #fff;
+    border-radius: 0px;
+    height: 50px;
 }
