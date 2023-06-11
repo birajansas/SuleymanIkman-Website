@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
 
 * {
     outlinee: 1px solid limegreen !important;
@@ -9,10 +10,27 @@ html {
 }
 
 /***** Navbar ******/
-.navbarr .container .collapse ul{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+.navbar {
+    left: 200px;
+}
+
+.navbar .collapse ul {
+    gap: 20px;
+}
+
+.navbar .collapse ul li a{
+    font-size:  20px;
+    font-weight: 400;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.navbar .collapse ul .navbar-instagram a {
+    margin-left: 60px;
+}
+
+.navbar .collapse ul .navbar-instagram a i{
+    margin-right: 5px;
 }
 
 /***** Slider ******/
@@ -22,9 +40,6 @@ html {
     height: 80vh;
 }
 
-.home-slider {
-    positionn: absolute;
-}
 
 .home-title {
     position: absolute;
