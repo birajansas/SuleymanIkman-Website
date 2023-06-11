@@ -8,4 +8,32 @@ html {
     font-family: 'Barlow Condensed', sans-serif;
 }
 
-/***** header ******/
+/***** Navbar ******/
+.navbarr .container .collapse ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/***** Slider ******/
+
+.home-title {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    padding: 0;
+    position: absolute;
+    height: 100%;
+}
+
+.home-title h2,
+.home-title h5 {
+    color: #fff;
+    text-align: center;
+}
+
+.home-title h5 {
+    letter-spacing: 10px;
+    font-size: 300;
+}
