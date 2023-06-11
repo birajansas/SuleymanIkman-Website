@@ -111,3 +111,7 @@ html {
 
 
 /**** infography ****/
+
+.container .infography .row .col-4 .vert-text {
+    transform: rotate(90deg);
+}
