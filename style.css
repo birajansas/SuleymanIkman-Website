@@ -73,3 +73,41 @@ html {
     border-radius: 0px;
     height: 50px;
 }
+
+/**** Quality info row ****/
+
+.quality-info .col h5{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 300;
+    text-align: center;
+}
+
+.quality-info .number-1 {
+    background: #cfcfcf;
+}
+
+.quality-info .number-2 {
+    background: #EBEBEB;
+}
+
+.quality-info .number-3 {
+    background: #e3e4e6;
+}
+
+.quality-info .number-4 {
+    background: #F7F8FA;
+}
+
+.quality-info .number-1,
+.quality-info .number-2,
+.quality-info .number-3,
+.quality-info .number-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+}
+
+
+/**** infography ****/
