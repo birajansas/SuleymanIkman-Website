@@ -17,23 +17,23 @@ html {
 
 /***** Slider ******/
 
+.slider {
+    position: relative;
+    height: 80vh;
+}
+
+.home-slider {
+    positionn: absolute;
+}
+
 .home-title {
-    display: block;
+    position: absolute;
+    left: 130px;
+    display: grid;
     justify-content: center;
     align-items: center;
-    width: 30%;
-    padding: 0;
-    position: absolute;
-    height: 100%;
-}
-
-.home-title h2,
-.home-title h5 {
-    color: #fff;
-    text-align: center;
-}
-
-.home-title h5 {
-    letter-spacing: 10px;
-    font-size: 300;
+    background: #4A4A4A;
+    height: 80vh;
+    padding: 30px;
+    z-index: 1;
 }
