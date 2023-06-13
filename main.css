@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500&display=swap');
+@font-face {
+    font-family: 'Grold';
+    src: url('/fonts/Grold-Medium.woff2') format('woff2'),url('/fonts/Grold-Medium.woff') format('woff'),
+        url('/fonts/Grold-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal
+}
+* {
+    outline: 1px solid limegreen !important;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Barlow', sans-serif;
+}
+.container{
+    margin: 0;
+}
+/***** Navbar ******/
+
+.navbar ul{
+    padding-left: 200px;
+}
+
+.navbar .collapse ul {
+    gap: 20px;
+}
+
+.navbar .collapse ul li a {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Barlow', sans-serif!important;
+}
+
+.navbar .collapse ul .navbar-instagram a {
+    margin-left: 60px;
+}
+
+.navbar .collapse ul .navbar-instagram a i {
+    margin-right: 5px;
+}
+
+/***** Slider ******/
+
+.slider {
+    position: relative;
+    height: 80vh;
+}
+
+
+.home-title {
+    position: absolute;
+    left: 130px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background: #4A4A4A;
+    height: 80vh;
+    padding: 30px;
+    text-align: center;
+    z-index: 1;
+}
+
+.home-title .texts h2 {
+    font-size: 40px;
+    color: #fff;
+}
+
+.home-title .texts h5 {
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.home-title .btn {
+    background: #2F2F2F;
+    color: #fff;
+    border-radius: 0px;
+    height: 50px;
+}
+
+/**** Quality info row ****/
+
+.quality-info {
+    margin-bottom: 50px;
+}
+
+.quality-info .col h5 {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 300;
+    text-align: center;
+}
+
+.quality-info .number-1 {
+    background: #cfcfcf;
+}
+
+.quality-info .number-2 {
+    background: #EBEBEB;
+}
+
+.quality-info .number-3 {
+    background: #e3e4e6;
+}
+
+.quality-info .number-4 {
+    background: #F7F8FA;
+}
+
+.quality-info .number-1,
+.quality-info .number-2,
+.quality-info .number-3,
+.quality-info .number-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+}
+
+
+/**** infography ****/
+.container .infography .row .col-4 {
+    text-align: right;
+}
+
+.container .infography .row-2 .col-4 {
+    display: grid;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.container .infography .row .col-4 .vert-text {
+    text-align: left;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 30px;
+    margin-bottom: 10px;
+    transform: rotate(90deg);
+    background: #EBEBEB;
+}
+
+.container .infography .row .col-4 .vert-text h5 {
+    font-weight: 300;
+    letter-spacing: 2px;
+
+}
+
+.container .infography .row .col-4 .btn {
+    position: relative;
+    bottom: 0;
+    background: #2F2F2F;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+    border-radius: 0;
+    width: 160px;
+    height: 50px;
+}
+
+/**** Gallery ****/
+.gallery .container {
+    padding: 0;
+}
+
+.photo-gallery .container {
+    padding: 0;
+}
+
+.gallery .container h3{
+    font-size: 25px;
+    font-weight: 400;
+    font-family: 'Barlow';
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.gallery .container p{
+    font-family: 'Barlow';
+    font-size: 15px;
+    font-weight: 300;
+    padding: 0 450px;
+    margin-bottom: 40px;
+}

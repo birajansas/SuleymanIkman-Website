@@ -1,0 +1,12 @@
+@media(max-width: 576px) {
+.shooting-process{
+    font-size: 14px;
+}
+
+}
+@media(max-width: 900px) {
+    .shooting-process{
+        font-size: 14px;
+    }
+    
+}
