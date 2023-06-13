@@ -160,6 +160,13 @@ html {
 }
 
 /**** Gallery ****/
+.gallery .container {
+    padding: 0;
+}
+
+.photo-gallery .container {
+    padding: 0;
+}
 
 .gallery .container h3{
     font-size: 25px;
