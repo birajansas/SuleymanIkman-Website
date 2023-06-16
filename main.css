@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500&display=swap');
+
 @font-face {
     font-family: 'Grold';
-    src: url('/fonts/Grold-Medium.woff2') format('woff2'),url('/fonts/Grold-Medium.woff') format('woff'),
+    src: url('/fonts/Grold-Medium.woff2') format('woff2'), url('/fonts/Grold-Medium.woff') format('woff'),
         url('/fonts/Grold-Medium.ttf') format('truetype');
     font-weight: normal;
     font-style: normal
 }
+
 * {
     outlinee: 1px solid limegreen !important;
     padding: 0;
@@ -17,12 +19,14 @@
 html {
     font-family: 'Barlow', sans-serif;
 }
-.container{
+
+.container {
     margin: 0;
 }
+
 /***** Navbar ******/
 
-.navbar ul{
+.navbar ul {
     padding-left: 200px;
 }
 
@@ -33,7 +37,7 @@ html {
 .navbar .collapse ul li a {
     font-size: 20px;
     font-weight: 400;
-    font-family: 'Barlow', sans-serif!important;
+    font-family: 'Barlow', sans-serif !important;
 }
 
 .navbar .collapse ul .navbar-instagram a {
@@ -180,7 +184,7 @@ html {
     padding: 0;
 }
 
-.gallery .container h3{
+.gallery .container h3 {
     font-size: 25px;
     font-weight: 400;
     font-family: 'Barlow';
@@ -188,7 +192,7 @@ html {
     margin-top: 20px;
 }
 
-.gallery .container p{
+.gallery .container p {
     font-family: 'Barlow';
     font-size: 15px;
     font-weight: 300;
@@ -211,7 +215,7 @@ html {
     margin-top: 20px;
 }
 
-.shooting-process .container p{
+.shooting-process .container p {
     font-family: 'Barlow';
     font-size: 15px;
     font-weight: 300;
@@ -219,7 +223,7 @@ html {
     margin-bottom: 40px;
 }
 
-/**** Shooting Process ****/
+/**** Packages ****/
 .packages {
     text-align: center;
     background: #EFEFEF;
@@ -254,7 +258,48 @@ html {
     left: 500px !important;
 }
 
-.packages .container .row .col-4 .reservation-btn:hover{
+.packages .container .row .col-4 .reservation-btn:hover {
     background: #2F2F2F;
     color: #fff;
+}
+
+/**** Google Feedback ****/
+
+.google-reviews {
+    padding: 0;
+}
+
+.google-review-container {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    background: #F3F3F3;
+}
+
+.google-reviews .google-review-container .google-logo {
+    height: 60px;
+    margin-bottom: 17px;
+}
+
+.google-review-container h5 {
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.google-review-container .rating-rate {
+    font-size: 40px;
+    color: red;
+    font-weight: bold;
+}
+
+.google-review-container .rating-stars {
+    height: 20px;
+    margin-bottom: 15px;
+}
+
+.google-review-container .rewiew-count {
+    font-family: 'Barlow';
+    margin: 0;
 }
