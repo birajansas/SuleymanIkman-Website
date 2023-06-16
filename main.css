@@ -35,7 +35,7 @@ html {
 }
 
 .navbar .collapse ul li a {
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 400;
     font-family: 'Barlow', sans-serif !important;
 }
@@ -267,7 +267,7 @@ html {
 /**** Google Feedback ****/
 
 .google-reviews {
-    padding: 0;
+    margin: auto;
 }
 
 .google-review-container {
@@ -300,7 +300,28 @@ html {
     margin-bottom: 15px;
 }
 
-.google-review-container .rewiew-count {
+.google-review-container .review-count {
     font-family: 'Barlow';
     margin: 0;
+}
+
+.google-reviews .review-box {
+    background: #F3F3F3;
+}
+
+.google-reviews .review-details h4,
+.google-reviews .review-details p {
+    font-family: 'Barlow';
+}
+
+.google-reviews .review-details h4 {
+    font-size: 17px;
+}
+
+.google-reviews .review-details p{
+    font-size: 15px;
+}
+
+.google-reviews .review-details .profile-img {
+    height: 62px;
 }
