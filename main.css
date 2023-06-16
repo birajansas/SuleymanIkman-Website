@@ -307,6 +307,8 @@ html {
 
 .google-reviews .review-box {
     background: #F3F3F3;
+    height: 100%;
+    border-radius: 10px;
 }
 
 .google-reviews .review-details h4,
@@ -324,4 +326,11 @@ html {
 
 .google-reviews .review-details .profile-img {
     height: 62px;
+}
+
+.google-reviews .review-details .comments {
+    margin-top: 10px;
+    font-family: 'Barlow';
+    font-size: 14px;
+    text-align: justify !important;
 }
