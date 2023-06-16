@@ -334,3 +334,13 @@ html {
     font-size: 14px;
     text-align: justify !important;
 }
+
+/***** bottom-contact-form ******/
+
+.contact-row {
+    background: #333333;
+}
+
+.contact-row .container .contact-form {
+    background: #fff;
+}
