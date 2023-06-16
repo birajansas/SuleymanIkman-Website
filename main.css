@@ -48,7 +48,6 @@ html {
 
 .slider {
     position: relative;
-    height: 80vh;
 }
 
 
@@ -59,7 +58,7 @@ html {
     justify-content: center;
     align-items: center;
     background: #4A4A4A;
-    height: 80vh;
+    height: 100%;
     padding: 30px;
     text-align: center;
     z-index: 1;
