@@ -8,7 +8,7 @@
     font-style: normal
 }
 * {
-    outline: 1px solid limegreen !important;
+    outlinee: 1px solid limegreen !important;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -252,4 +252,9 @@ html {
     border: 1px solid #707070;
     width: 50%;
     left: 500px !important;
+}
+
+.packages .container .row .col-4 .reservation-btn:hover{
+    background: #2F2F2F;
+    color: #fff;
 }
