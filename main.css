@@ -200,6 +200,7 @@ html {
 
 .shooting-process {
     text-align: center;
+    margin: 60px auto !important;
 }
 
 .shooting-process .container h3 {
@@ -220,7 +221,6 @@ html {
 
 /**** Shooting Process ****/
 .packages {
-    margin: 50px 0;
     text-align: center;
     background: #EFEFEF;
 }
@@ -233,3 +233,23 @@ html {
     margin-top: 20px;
 }
 
+.packages .container .title-text p {
+    font-family: 'Barlow';
+    font-size: 15px;
+    font-weight: 300;
+    padding: 0 450px;
+    margin-bottom: 40px;
+}
+
+.packages .container .package-row .col-4 {
+    display: grid;
+    justify-content: space-between;
+}
+
+.packages .container .row .col-4 .reservation-btn {
+    border-radius: 0;
+    height: 50px;
+    border: 1px solid #707070;
+    width: 50%;
+    left: 500px !important;
+}
