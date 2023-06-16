@@ -167,6 +167,11 @@ html {
 }
 
 /**** Gallery ****/
+
+.gallery {
+    margin-bottom: 30px;
+}
+
 .gallery .container {
     padding: 0;
 }
@@ -184,6 +189,28 @@ html {
 }
 
 .gallery .container p{
+    font-family: 'Barlow';
+    font-size: 15px;
+    font-weight: 300;
+    padding: 0 450px;
+    margin-bottom: 40px;
+}
+
+/**** Shooting Process ****/
+
+.shooting-process {
+    text-align: center;
+}
+
+.shooting-process .container h3 {
+    font-size: 25px;
+    font-weight: 400;
+    font-family: 'Barlow';
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.shooting-process .container p{
     font-family: 'Barlow';
     font-size: 15px;
     font-weight: 300;
