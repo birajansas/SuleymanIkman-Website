@@ -141,7 +141,8 @@ html {
 
 .container .infography .row .col-4 .vert-text {
     text-align: left;
-    left: 0;
+    top: 0;
+    right: 0;
     display: flex;
     justify-content: center;
     align-items: center;
