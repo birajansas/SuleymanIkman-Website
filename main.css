@@ -10,7 +10,7 @@
 }
 
 * {
-    outlinee: 1px solid limegreen !important;
+    outline: 1px solid limegreen !important;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
