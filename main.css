@@ -367,6 +367,29 @@ html {
     border-radius: 0;
 }
 
-.contact-row .container .map {
-    
+.contact-row .container .map h2{
+    font-family: 'Barlow';
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.contact-row .container .map .bottom-contact-whatsapp,
+.contact-row .container .map .bottom-contact-email {
+    margin-top: 15px;
+}
+
+.contact-row .container .map .bottom-contact-whatsapp a,
+.contact-row .container .map .bottom-contact-whatsapp i,
+.contact-row .container .map .bottom-contact-email a,
+.contact-row .container .map .bottom-contact-email i {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Poppins';
+}
+
+.contact-row .container .map .bottom-contact-whatsapp i,
+.contact-row .container .map .bottom-contact-email i {
+    margin-right: 8px;
+    font-size: 20px;
 }
