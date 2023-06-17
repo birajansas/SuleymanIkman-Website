@@ -320,7 +320,7 @@ html {
     font-size: 17px;
 }
 
-.google-reviews .review-details p{
+.google-reviews .review-details p {
     font-size: 15px;
 }
 
@@ -343,4 +343,26 @@ html {
 
 .contact-row .container .contact-form {
     background: #fff;
+    width: 50%;
+}
+
+.contact-row .container .contact-form h3 {
+    font-family: 'Barlow';
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.contact-row .container .contact-form input,
+.contact-row .container .contact-form textarea {
+    color: #868686;
+    font-family: 'Barlow';
+    font-size: 13px;
+    outline: 1px solid #868686;
+    border: none;
+}
+
+.contact-row .container .contact-form .send-msg {
+    background: #2F2F2F;
+    color: #fff;
+    border-radius: 0;
 }
