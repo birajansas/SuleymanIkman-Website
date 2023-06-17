@@ -404,3 +404,42 @@ html {
 .bottom-info-row .container .bottom-info-tel i {
     margin-right: 8px;
 }
+
+.bottom-info-row .container .col h3 {
+    font-family: 'Barlow';
+    font-size: 20px;
+}
+
+.bottom-info-row .container .col ul {
+    padding: 0 10px;
+}
+
+.bottom-info-row .container .col ul li {
+    list-style: none;
+}
+
+.bottom-info-row .container .col ul li a {
+    text-decoration: none;
+    color: #2F2F2F;
+    font-family: 'Barlow';
+    font-size: 16px;
+}
+
+.bottom-info-row .container .col ul li a:hover{
+    color: #868686;
+}
+
+.tursab {
+    padding-right: 50px ;
+}
+
+.tursab .social-icons {
+    margin-right: 30px;
+}
+
+.tursab .social-icons a{
+    color: #2F2F2F;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
