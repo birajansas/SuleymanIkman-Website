@@ -206,6 +206,7 @@ html {
 .shooting-process {
     text-align: center;
     margin: 60px auto !important;
+    padding: 0 !important;
 }
 
 .shooting-process .container h3 {
@@ -222,6 +223,22 @@ html {
     font-weight: 300;
     padding: 0 450px;
     margin-bottom: 40px;
+}
+
+.shooting-process .col-4 button {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 150px;
+    bottom: 30px;
+    margin: auto;
+    background: #2F2F2F;
+    color: #fff;
+    border-radius: 0;
+    height: 40px;
+    width: 150px;
+    z-index: 1;
 }
 
 /**** Packages ****/
