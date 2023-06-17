@@ -454,14 +454,9 @@ html {
 }
 
 .signature {
-    background: #333333;
-    height: 30px;
-
-}
-
-.signature p {
     text-align: center;
     font-family: 'Barlow';
     font-size: 14px;    
     color: #fff;
+    background: #333333;
 }
