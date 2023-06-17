@@ -443,3 +443,25 @@ html {
     margin-left: 10px;
 }
 
+.copyright-text {
+    font-family: 'Barlow';
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.copyright-text span {
+    font-size: 20px;
+}
+
+.signature {
+    background: #333333;
+    height: 30px;
+
+}
+
+.signature p {
+    text-align: center;
+    font-family: 'Barlow';
+    font-size: 14px;    
+    color: #fff;
+}
