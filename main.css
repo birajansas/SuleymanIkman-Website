@@ -407,11 +407,11 @@ html {
 
 .bottom-info-row .container .col h3 {
     font-family: 'Barlow';
-    font-size: 20px;
+    font-size: 17px;
 }
 
 .bottom-info-row .container .col ul {
-    padding: 0 10px;
+    padding-left: 0;
 }
 
 .bottom-info-row .container .col ul li {
@@ -455,8 +455,12 @@ html {
 
 .signature {
     text-align: center;
+    background: #333333;
+}
+
+.signature a {
     font-family: 'Barlow';
     font-size: 14px;    
     color: #fff;
-    background: #333333;
+    text-decoration: none;
 }
