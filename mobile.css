@@ -57,20 +57,23 @@
         text-align: justify;
     }
 
+    .container .infography .row .col-8,
+    .container .infography .row img {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
     .container .infography .vert-text {
         transform: rotate(0) !important;
         font-size: 14px;
         width: 100% !important;
-        text-align: center !important;
         padding: 15px;
-        margin: auto !important;
+        margin-left: 60px;
     }
 
     .container .infography .col-4 button {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: auto;
+        margin-left: 110px;
     }
 
     /****** Gallery */
@@ -109,6 +112,16 @@
     .shooting-process .process-container .col-8 img {
         width: 100% !important;
     }
+
+    .shooting-process .process-container .col-4 {
+        width: 100%;
+    }
+
+    .process-container .col-4 button {
+        left: 120px;
+    }
+
+
 
 }
 
