@@ -69,11 +69,11 @@
         font-size: 14px;
         width: 100% !important;
         padding: 15px;
-        margin-left: 60px;
+        margin-left: 45px;
     }
 
     .container .infography .col-4 button {
-        margin-left: 110px;
+        margin-left: 90px;
     }
 
     /****** Gallery */
@@ -211,7 +211,41 @@
 
     .contact-row .contact-container .map .contact-info {
         display: grid !important;
+        justify-content: center !important;
     }
+
+    /****** Google FeedBacks */
+
+    .bottom-info-row {
+        padding: 48px 15px !important;
+    }
+
+    .bottom-info-row .container {
+        display: grid !important;
+    }
+
+    .bottom-info-row .container .col-4 {
+        width: 100% !important;
+        margin: auto !important;
+    }
+
+    .bottom-info-row .bottom-info-tel {
+        margin-bottom: 2rem !important;
+    }
+
+    .bottom-info-row .bottom-info-tel a,
+    .bottom-info-row .bottom-info-tel p {
+        width: 100%;
+    }
+
+    .tursab {
+        padding: 0 !important;
+        justify-content: center !important;
+        align-items: center !important;
+        gap: 2rem !important;
+    }
+
+
 
 }
 
