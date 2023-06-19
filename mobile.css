@@ -1,4 +1,15 @@
 @media(max-width: 576px) {
+
+/****** slider */
+
+.home-title {
+    display: none;
+}
+
+.mobile-slider {
+    display: block;
+}
+
 .shooting-process{
     font-size: 14px;
 }

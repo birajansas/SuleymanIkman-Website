@@ -80,6 +80,10 @@ html {
     height: 50px;
 }
 
+.container-4 .slider {
+    display: none;
+}
+
 /**** Quality info row ****/
 
 .quality-info {
