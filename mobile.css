@@ -193,6 +193,25 @@
         gap: 15px;
     }
 
+    /****** Bottom Contact Form */
+
+    .contact-row .contact-container {
+        display: grid !important;
+        padding: 48px 15px !important;
+    }
+
+    .contact-row .contact-container .col .contact-form {
+        width: 100%;
+    }
+
+    .contact-row .contact-container .map h2 {
+        font-size: 20px;
+        margin: 20px 0;
+    }
+
+    .contact-row .contact-container .map .contact-info {
+        display: grid !important;
+    }
 
 }
 
