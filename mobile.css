@@ -63,7 +63,6 @@
         width: 100% !important;
         text-align: center !important;
         padding: 15px;
-        margin-leftt: 11px !important;
         margin: auto !important;
     }
 
@@ -82,6 +81,33 @@
 
     .gallery .container p {
         padding: 0 10px;
+    }
+
+    /****** Shooting Process */
+
+    .shooting-process .container h3 {
+        font-size: 20px;
+    }
+
+    .shooting-process .container h3,
+    .shooting-process .container p {
+        width: 100%;
+        padding: 0;
+    }
+
+    .shooting-process .process-container {
+        display: grid !important;
+        margin: auto;
+    }
+
+    .shooting-process .process-container .col-8 {
+        display: grid !important;
+        width: 100% !important;
+        margin: auto;
+    }
+
+    .shooting-process .process-container .col-8 img {
+        width: 100% !important;
     }
 
 }
