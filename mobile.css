@@ -30,14 +30,21 @@
     .infography-container {
         display: flex;
         width: 100% !important;
+        margin: auto;
         text-align: center;
     }
 
     .infography-container .infography .row {
         display: grid !important;
+        margin: 0 !important;
     }
 
     .container .infography .row .col-4 {
+        width: 100%;
+        text-align: center !important;
+    }
+
+    .container .infography .row .col-8 {
         width: 100%;
     }
 
@@ -53,6 +60,18 @@
     .container .infography .vert-text {
         transform: rotate(0) !important;
         font-size: 14px;
+        width: 100% !important;
+        text-align: center !important;
+        padding: 15px;
+        margin-leftt: 11px !important;
+        margin: auto !important;
+    }
+
+    .container .infography .col-4 button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
     }
 
     /****** Gallery */
