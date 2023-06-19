@@ -86,7 +86,19 @@
         padding: 0 10px;
     }
 
+    .photo-gallery .container {
+        display: grid !important;
+    }
+
+    .container-4 .container .vertical-gallery .col {
+        display: none;
+    }
+
     /****** Shooting Process */
+
+    .shooting-process {
+        margin-bottom: 0 !important;
+    }
 
     .shooting-process .container h3 {
         font-size: 20px;
@@ -121,6 +133,65 @@
         left: 120px;
     }
 
+    /****** Shooting Process */
+    
+    .packages {
+       width: 100% !important;
+    }
+
+    .packages .container {
+        padding: 48px 10px !important;
+    }
+
+    .packages .container .title-text h3,
+    .packages .container .title-text p {
+        width: 100%;
+        padding: 0;
+    }
+
+    .packages .container .title-text .h3 {
+        font-size: 20px;
+    }
+
+    .packages .container .package-row {
+        display: grid;
+        width: 100%;
+    }
+
+    .packages .container .package-row .col-4 {
+        width: 100% !important;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .packages .container .package-row .col-4 .reservation-btn {
+        width: 70%;
+        margin: 5px 0 10px 0;
+    }
+
+    .packages .container .package-row .horizontal-photo,
+    .packages .container .package-row .vertical-photo {
+        display: none;
+    }
+
+    /****** Google FeedBacks */
+
+    .google-reviews {
+        display: grid !important;
+        width: 100% !important;
+        padding: 0;
+    }
+
+    .google-reviews .google-review-container {
+        width: 100%;
+        margin: auto;
+        margin-bottom: 15px;
+    }
+
+    .google-reviews .row .review-container-box {
+        display: grid !important;
+        gap: 15px;
+    }
 
 
 }
