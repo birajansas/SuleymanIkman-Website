@@ -247,12 +247,30 @@
 
     /*************************** About Us */
 
+    .cover-title {
+        padding: 0;
+    }
+
     .cover-title .cover-img .web-cover {
         display: none;
     }
 
     .cover-title .cover-img .about-us-cover-mobile {
         display: grid;
+    }
+
+    .cover-title .cover-title-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 75%;
+        height: 80%;
+        top: 150px;
+    }
+
+    .about-us-info {
+        margin-top: 70px;
+        padding: 50px 20px;
     }
 
 
