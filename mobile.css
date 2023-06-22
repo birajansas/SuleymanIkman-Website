@@ -305,6 +305,30 @@
         margin-top: 15px;
     }
 
+/******** befor shooting info row ******/
+    .map-box .info-boxes {
+        display: grid !important;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        paddingg: 30px;
+        margin: auto;
+    }
+
+    .map-box .info-boxes .col {
+        width: 100% !important;
+        padding: 40px 10px !important;
+    }
+
+    .map-box .info-boxes .email-box p {
+        font-size: 12px;
+    }
+
+    .map-box .contact-map .col img {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
 }
 
 
