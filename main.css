@@ -479,7 +479,7 @@ html {
 }
 
 
-/*************************** About Us */
+/*************************** About Us --- Page */
 
 .cover-title {
     position: relative;
@@ -565,3 +565,9 @@ html {
     height: 120px;
 }
 
+
+/*************************** About Us --- Page */
+
+.gallery-img-container {
+    background: #EFEFEF;
+}
