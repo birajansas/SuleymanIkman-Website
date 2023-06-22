@@ -490,7 +490,7 @@ html {
     margin: auto;
 }
 
-.cover-title .cover-img .about-us-cover-mobile {
+.cover-title .cover-img .mobile-cover {
     display: none;
 }
 
@@ -507,7 +507,7 @@ html {
     z-index: 1;
 }
 
-.cover-title .cover-title-box .about-us-title {
+.cover-title .cover-title-box .page-title {
     font-family: 'Barlow';
     font-size: 25px;
     color: #fff;
