@@ -380,12 +380,13 @@ html {
     border-radius: 0;
 }
 
-.contact-row .container .map h2{
+.contact-row .container .map h2 {
     font-family: 'Barlow';
     color: #fff;
     font-weight: 400;
     margin-bottom: 15px;
 }
+
 .contact-row .container .map .bottom-contact-whatsapp,
 .contact-row .container .map .bottom-contact-email {
     margin-top: 15px;
@@ -438,19 +439,19 @@ html {
     font-size: 16px;
 }
 
-.bottom-info-row .container .col ul li a:hover{
+.bottom-info-row .container .col ul li a:hover {
     color: #868686;
 }
 
 .tursab {
-    padding-right: 50px ;
+    padding-right: 50px;
 }
 
 .tursab .social-icons {
     margin-right: 30px;
 }
 
-.tursab .social-icons a{
+.tursab .social-icons a {
     color: #2F2F2F;
     text-decoration: none;
     margin-left: 10px;
@@ -473,7 +474,7 @@ html {
 
 .signature a {
     font-family: 'Barlow';
-    font-size: 14px;    
+    font-size: 14px;
     color: #fff;
     text-decoration: none;
 }
@@ -513,7 +514,7 @@ html {
     color: #fff;
 }
 
-.about-us-info{
+.about-us-info {
     margin: auto;
     padding: 100px 150px;
 }
@@ -566,8 +567,44 @@ html {
 }
 
 
-/*************************** About Us --- Page */
+/*************************** Gallery --- Page */
+
+.gallery-container h2 {
+    font-family: 'Barlow';
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.gallery-container .tag-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.gallery-container .tag-btn button {
+    border: 1px solid #4A4A4A;
+    border-radius: 40px;
+    width: 120px;
+    font-family: 'Barlow';
+    font-size: 15px;
+}
+
+.gallery-container .tag-btn button:hover {
+    color: #fff;
+    background: #333333;
+}
+
+.gallery-container .tag-btn .isActive {
+    color: #fff;
+    background: #333333;
+}
 
 .gallery-img-container {
     background: #EFEFEF;
+}
+
+.gallery-img-container p {
+    font-family: 'Barlow';
+    font-size: 15px;
 }
