@@ -25,7 +25,7 @@
         font-size: 13px;
     }
 
-    /****** Quality info row */
+    /****** infography info row */
 
     .infography-container {
         display: flex;
@@ -271,6 +271,13 @@
     .about-us-info {
         margin-top: 70px;
         padding: 50px 20px;
+    }
+
+/******** befor shooting info row ******/
+
+    .befor-shooting-info {
+        display: grid !important;
+        grid-template-columns: repeat(2 ,50%);
     }
 
 
