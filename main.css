@@ -490,6 +490,10 @@ html {
     margin: auto;
 }
 
+.cover-title .cover-img .about-us-cover-mobile {
+    display: none;
+}
+
 .cover-title .cover-title-box {
     position: absolute;
     display: grid;

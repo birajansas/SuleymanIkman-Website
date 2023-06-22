@@ -246,8 +246,14 @@
     }
 
     /*************************** About Us */
-    
 
+    .cover-title .cover-img .web-cover {
+        display: none;
+    }
+
+    .cover-title .cover-img .about-us-cover-mobile {
+        display: grid;
+    }
 
 
 }
