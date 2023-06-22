@@ -666,3 +666,48 @@ html {
     background: #707070;
     letter-spacing: 2px;
 }
+
+
+/****** map box ******/
+
+.map-box {
+    background: #333333;
+}
+
+.map-box .info-boxes {
+    gap: 150px;
+    padding: 50px 150px;
+}
+
+.map-box .info-boxes .col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 40% !important;
+    height: 250px;
+    border-radius: 50px;
+    background: #EFEFEF;
+}
+
+.map-box .info-boxes .col img {
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.map-box .info-boxes .col h4 {
+    font-size: 20px;
+}
+
+.map-box .info-boxes .col p {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.map-box .info-boxes .email-box p {
+    font-size: 14px;
+}
+
+.map-box .contact-map .col img{
+    padding: 50px;
+}
