@@ -477,3 +477,45 @@ html {
     color: #fff;
     text-decoration: none;
 }
+
+
+/*************************** About Us */
+
+.cover-title {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.cover-title .cover-title-box {
+    position: absolute;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background: #4A4A4A;
+    height: 100%;
+    padding: 30px;
+    text-align: center;
+    z-index: 1;
+}
+
+.cover-title .cover-title-box .about-us-title {
+    font-family: 'Barlow';
+    font-size: 25px;
+    color: #fff;
+}
+
+.about-us-info{
+    margin: auto;
+    padding: 100px 150px;
+}
+
+.about-us-info p {
+    font-family: 'Barlow';
+    font-size: 15px;
+    text-align: justify;
+}
