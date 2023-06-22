@@ -134,9 +134,9 @@
     }
 
     /****** Shooting Process */
-    
+
     .packages {
-       width: 100% !important;
+        width: 100% !important;
     }
 
     .packages .container {
@@ -273,11 +273,31 @@
         padding: 50px 20px;
     }
 
-/******** befor shooting info row ******/
+    /******** befor shooting info row ******/
 
     .befor-shooting-info {
         display: grid !important;
-        grid-template-columns: repeat(2 ,50%);
+        grid-template-columns: repeat(2, 50%);
+    }
+
+    /*************************** Gallery / Page */
+
+    .gallery-container {
+        margin-top: 140px !important;
+    }
+
+    .gallery-img-container {
+        padding: 0 !important;
+    }
+
+    .gallery-img-container p {
+        padding: 20px 10px !important;
+    }
+
+    .gallery-img-container .gallery-img .cube-row,
+    .gallery-img-container .gallery-img .vertical-row,
+    .gallery-img-container .gallery-img .horizontal-row {
+        display: grid !important;
     }
 
 
@@ -305,7 +325,7 @@
         margin-top: 15px;
     }
 
-/******** befor shooting info row ******/
+    /******** befor shooting info row ******/
     .map-box .info-boxes {
         display: grid !important;
         justify-content: center;
