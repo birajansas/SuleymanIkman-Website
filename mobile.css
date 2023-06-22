@@ -281,6 +281,30 @@
     }
 
 
+    /*************************** Contacts / Page */
+
+    .contact-form-container {
+        margin-top: 130px !important;
+        padding: 20px 10px !important;
+    }
+
+    .contact-form-container .contact-form-box .name-mail-box {
+        display: grid !important;
+    }
+
+    .contact-form-container .reach-option-container .reach-option-info {
+        gap: 0 !important;
+    }
+
+    .contact-form-container .reach-option-container .reach-option-info .form-check {
+        margin-right: 15px;
+    }
+
+    .contact-form-container .send-message {
+        width: 50%;
+        margin-top: 15px;
+    }
+
 }
 
 
