@@ -628,8 +628,41 @@ html {
     width: 100%;
 }
 
+.contact-form-box h3 {
+    font-family: 'Barlow';
+    color: #4A4A4A;
+}
+
 .contact-form-box input[type="text"],
 .contact-form-box input[type="email"],
 .contact-form-box textarea {
     width: 100%;
+    font-family: 'Barlow';
+    font-size: 16px;
+    color: #2F2F2F;
+}
+
+.contact-form-box .reach-option-container h5 {
+    font-family: 'Barlow';
+    font-size: 18ox;
+    color: #4A4A4A;
+}
+
+.contact-form-box .reach-option-container .form-check-input:checked {
+    background-color: #333333;
+    border-color: #2F2F2F;
+}
+
+.contact-form-box .send-message {
+    margin: auto;
+    background: #2F2F2F;
+    color: #fff;
+    border-radius: 0;
+    width: 20%;
+    transition: all 0.4s ease-in-out;
+}
+
+.contact-form-box .send-message:hover {
+    background: #707070;
+    letter-spacing: 2px;
 }
