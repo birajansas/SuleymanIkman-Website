@@ -608,3 +608,28 @@ html {
     font-family: 'Barlow';
     font-size: 15px;
 }
+
+/*************************** Contacts --- Page */
+
+.contact-form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #707070;
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.contact-form-box {
+    width: 100%;
+}
+
+.contact-form-box input[type="text"],
+.contact-form-box input[type="email"],
+.contact-form-box textarea {
+    width: 100%;
+}
