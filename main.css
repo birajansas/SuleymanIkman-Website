@@ -771,4 +771,18 @@ html {
     margin-right: 8px;
 }
 
-/*************************** Packages --- Page */
+/*************************** Services --- Page */
+
+.services-container .col {
+    width: 365px;
+    height: 295px;
+    border-radius: 20px;
+}
+
+.services-container .col img {
+    position: relative;
+}
+
+.services-container .col .title-whatsapp {
+    position: absolute;
+}
