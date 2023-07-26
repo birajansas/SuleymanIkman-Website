@@ -712,3 +712,61 @@ html {
 .map-box .contact-map .col img{
     padding: 50px;
 }
+
+/*************************** Packages --- Page */
+
+.packages-container .col {
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+}
+
+.col .title-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    background: #707070;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.col .title-box h3,
+.col .title-box p {
+    color: #fff;
+}
+
+.col .locations h3 {
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.col .locations span {
+    margin-bottom: 10px;
+}
+
+.col .locations span img {
+    width: 17px;
+}
+
+.col .contact-whatsapp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 50px;
+    width: 200px;
+    color: #fff;
+    background: #0ca525;
+    margin-top: 15px;
+    transition: all .4s ease;
+}
+
+.col .contact-whatsapp:hover {
+    background: #2F2F2F;
+}
+
+.col .contact-whatsapp i {
+    margin-right: 8px;
+}
